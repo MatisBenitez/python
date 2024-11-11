@@ -1,3 +1,3 @@
-mensaje="Hola Pitón"
+mensaje="Hola Python, encantado de conocerte"
 
-print (mensaje+" de python")
+print (mensaje)
