@@ -18,8 +18,8 @@ print(10%3,10**2,9//2)
 #the type is defined by the content of the same so its not like java
 
 menssage="""Aqui hay algunos
-saltos 
-de linea"""
+...saltos 
+...de linea"""
 print(menssage)
 
 
@@ -28,3 +28,23 @@ a=0
 for i in range (100):
     a+=2
 print(a)
+
+#Functions are a group of code that could make a task or a group of them and
+#Functions could return values, have parameters and arguments
+#Are also call methods that may belong to a class
+# Utilities: code optimization, 
+#BASIC SINTAX:
+ #def function():#parameter zones(optional)
+ #instructions and returned values(optional)
+#There are default options that cames with python and then our define funtions 
+def mensaje():#this is the set of the function
+    print("This line is going to appear 5 times")#this is the body of the function
+
+#There is an example of a simple loop using a function inside 
+o=0
+while o!=5:
+    mensaje()#this is the call of the function
+    o+=1
+
+
+
