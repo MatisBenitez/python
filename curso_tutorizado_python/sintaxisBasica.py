@@ -46,5 +46,16 @@ while o!=5:
     mensaje()#this is the call of the function
     o+=1
 
+def suma(num1,num2):#a sum function that recieve two param that will sum them
+    print(num1+num2)
+
+def resta(n1,n2):#here a substraction function
+    resultado=n1-n2
+    return resultado
+
+
+suma(9,1)
+almacena_resultado=resta(45,6)
+print(almacena_resultado)
 
 
