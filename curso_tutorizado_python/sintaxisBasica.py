@@ -10,7 +10,7 @@
 variable="Im a variable"
 print(type(variable))#to know what type is the var
 
-#A variable is space of the memory of the computer with value that could change in the program thats why the name
+#A variable is space in the memory of the computer with value that could change in the program thats why the name
 
 operadores="These are the results of operations: "
 print(10%3,10**2,9//2)
