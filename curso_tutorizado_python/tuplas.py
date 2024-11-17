@@ -1,6 +1,6 @@
 #tuples inmutable list like fixed list
 #It is possible to make list or tuples from one another tuple
-#No index allow, it is posible to check if there is an element
+#It is posible to make an Index, it is posible to check if there is an element
 #ADVANTAGES: The runtime is faster than the list, optimize space, format strings, there are possible to use like a key in data dictionay
 
 miTupla=("David",12,True,19.4)
