@@ -4,11 +4,19 @@
 print("Programa de evaluación de Notas:")
 notaAlumno=int(input("Introduce tu nota: "))#This variable will receive a value by console, just intput will be consider as a String
 def evaluar(nota):#An example using a function that check if the cndition happend and depend the note the value of the value returned will be different
-    valoracion="aprobado"
-    if nota <5:
-        valoracion="suspenso"
-    return valoracion
-print(evaluar(notaAlumno))
+    valoracion="nota"
+    if nota<5:
+        print("InSuficiente")
+    elif nota<6:
+        print("Suficiente")
+    elif nota<8:
+            print("Bien")
+    elif nota<9:
+        print("Notable")
+    else:
+        print("Sobresaliente")
+ 
+evaluar(notaAlumno)
 #variable nota is only able to handle in his ambito, in his block or function therefore that variable only make sense in his ambito
 
     # print(evaluar(int(notaAlumno)))#Class integer to trasform the input into str to int
