@@ -31,6 +31,10 @@ def checkEdad(age):
     else:
         print("puedes pasar")
     
+
 checkEdad(edad)
+
+#In python doesn't exist a switch instruction like conditional so it's  possible to do with if 
+#Python offer logic operator and, or, in, join of differents conditional structures
 
 

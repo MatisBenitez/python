@@ -23,4 +23,63 @@ while a!=100:
     a+=1
     divisores(a)
     
+#Ejercicio 1 Condicionales:(Aplicacion que devuelve el numero mas alto)
+
+num1=int(input("Introduce un numero:"))
+num2=int(input("Introduce otro numero:"))
+
+def devuelveNumero(num1,num2):
+    mens="El mayor es:"
+    if num1>num2:
+        print(mens)
+        print(num1)
+        
+    elif num1<num2:
+        print(mens)
+        print(num2)
+    else:
+        print("Son iguales")
+
+
+devuelveNumero(num1,num2)
+
+#Ejercicio 2
+nombre=input("Introduce nombre:")
+direccion=input("Introduce direccion:")
+telefono=input("Introduce un telefono:")
+
+cliente=[nombre,direccion,telefono]
+
+print("Los datos personales son: "+cliente[0]+" "+cliente[1]+" "+cliente[2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Ejercicio 3
+
+numero1=int(input("Introduce un primer numero para media:"))
+numero2=int(input("Introduce un segundo numero para media:"))
+numero3=int(input("Introduce un tercer numero para media:"))
+def devuelveMedia(num1,num2,num3):
+    print("La media es:")
+    print((num1+num2+num3)/3)
+
+devuelveMedia(numero1,numero2,numero3)
 
